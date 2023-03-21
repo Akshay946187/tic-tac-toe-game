@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 10vh;
+    width: 100vw;
+    background-color:rgba(36, 36, 6, 0.2);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.gameContainer{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+}
+.container div{
+    border: 2px solid black;
+}
+.container div:hover{
+    background-color: pink;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+.btn{
+    height: 7vh;
+    width: 7vw;
+    position: relative;
+    right: -10px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
